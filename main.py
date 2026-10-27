@@ -1,9 +1,11 @@
 from pyscript import document,display
 #Dictionary
-#Unique Keys
+#comma makes set, colon makes dict
+#
 set1 = {'sample1', "sample2"}
-my_sample_data = {"Math": 94,
-                  "Science": 91,
-                  "Filipino": 94 }
-display(type(set1), target="output1")
+my_sample_data = {"Math": 95,
+                  "Science": 97,
+                  "Filipino": 98,
+                  "Math": 93}
+#display(type(set1), target="output1")
 display(my_sample_data, target="output1")
