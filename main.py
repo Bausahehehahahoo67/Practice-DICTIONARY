@@ -3,5 +3,7 @@ from pyscript import document,display
 
 #Unique Keys
 set1 = {'sample1', "sample2"}
-data = {"Math": 94, }
-display(x, target="output1")
+my_sample_data = {"Math": 94,
+        "Science": 91
+        "Filipino": 94 }
+display(data, target="output1")
