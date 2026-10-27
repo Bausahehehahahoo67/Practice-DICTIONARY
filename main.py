@@ -7,5 +7,6 @@ from pyscript import document,display
 my_sample_data = {"Math": 95,
                   "Science": 97,
                   "Filipino": 98,
-                  "P.E": 95}
-display(my_sample_data, target="output1")
+                  "P.E": 95}                 
+display(my_sample_data['Math'], target="output1")
+display(dict(a), target = "output1")
